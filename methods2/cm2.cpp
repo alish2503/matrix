@@ -75,7 +75,7 @@ int main(void) {
 	for (int j = 0; j < nm1; j++) {
 		for (int i = 0; i < nm1; i++) ofs << x[i + 1] << ' ' << y[j + 1] << ' ' << u(j, i) << endl;
 	}
-	if (execlp("./plot", "./plot", NULL) < 0) {
+	if (execlp("Poisson-equation/plot","Poisson-equation/plot","./plot", "./plot", NULL) < 0) {
 	 	perror( "failed");
 	 	return 1;
 	}

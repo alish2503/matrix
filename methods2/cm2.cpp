@@ -1,5 +1,5 @@
 #include "Matrix2.h"
-#include "func.h"
+#include "Poisson-equation/func.h"
 #include <fstream>
 #include <unistd.h>
 #include <tuple>

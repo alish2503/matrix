@@ -59,7 +59,7 @@ int main(void) {
 	auto duration = duration_cast<microseconds>(stop - start) * 1.0e-6;
 	cout << duration.count() << " секунд" << endl;
 	double dlt = 0.0;
-	double I, J;
+	int I, J;
 	for (int j = 0; j < nm1; j++) {
     		for (int i = 0; i < nm1; i++) { 
     			ua(j, i) = u_a1(x[i + 1], y[j + 1]);     
